@@ -15,7 +15,7 @@ labels:
   - "traefik.http.routers.neko.tls.certresolver=${TRAEFIK_CERTRESOLVER}"
 ```
 
-(by [@m1k1o](https://github.com/m1k1o), [example](https://github.com/m1k1o/neko-vpn/blob/a1b934515dcf597992a515d61d307c2450a11002/docker-compose.yml#L38-L43))
+(by [@m1k1o](https://github.com/m1k1o), [example](https://github.com/hiradnikoo/neko-vpn/blob/a1b934515dcf597992a515d61d307c2450a11002/docker-compose.yml#L38-L43))
 
 ## Nginx
 

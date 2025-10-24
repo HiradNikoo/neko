@@ -9,16 +9,16 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/m1k1o/neko/server/internal/api"
-	"github.com/m1k1o/neko/server/internal/capture"
-	"github.com/m1k1o/neko/server/internal/config"
-	"github.com/m1k1o/neko/server/internal/desktop"
-	"github.com/m1k1o/neko/server/internal/http"
-	"github.com/m1k1o/neko/server/internal/member"
-	"github.com/m1k1o/neko/server/internal/plugins"
-	"github.com/m1k1o/neko/server/internal/session"
-	"github.com/m1k1o/neko/server/internal/webrtc"
-	"github.com/m1k1o/neko/server/internal/websocket"
+	"github.com/HiradNikoo/neko/server/internal/api"
+	"github.com/HiradNikoo/neko/server/internal/capture"
+	"github.com/HiradNikoo/neko/server/internal/config"
+	"github.com/HiradNikoo/neko/server/internal/desktop"
+	"github.com/HiradNikoo/neko/server/internal/http"
+	"github.com/HiradNikoo/neko/server/internal/member"
+	"github.com/HiradNikoo/neko/server/internal/plugins"
+	"github.com/HiradNikoo/neko/server/internal/session"
+	"github.com/HiradNikoo/neko/server/internal/webrtc"
+	"github.com/HiradNikoo/neko/server/internal/websocket"
 )
 
 func init() {

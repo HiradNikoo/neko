@@ -5,7 +5,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/m1k1o/neko/server/pkg/types"
+	"github.com/HiradNikoo/neko/server/pkg/types"
 )
 
 type dependency struct {

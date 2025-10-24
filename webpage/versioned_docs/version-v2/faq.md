@@ -12,7 +12,7 @@ To see verbose information from n.eko server, you can enable debug mode using `N
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:firefox"
+    image: "HiradNikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -42,7 +42,7 @@ Check if you did not forget to add cap_add to your docker-compose file.
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:chromium"
+    image: "HiradNikoo/neko:chromium"
     # highlight-start
     cap_add:
     - SYS_ADMIN

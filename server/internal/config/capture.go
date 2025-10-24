@@ -9,9 +9,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/m1k1o/neko/server/pkg/types"
-	"github.com/m1k1o/neko/server/pkg/types/codec"
-	"github.com/m1k1o/neko/server/pkg/utils"
+	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/HiradNikoo/neko/server/pkg/types/codec"
+	"github.com/HiradNikoo/neko/server/pkg/utils"
 )
 
 // Legacy capture configuration

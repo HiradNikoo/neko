@@ -11,15 +11,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/m1k1o/neko/server/internal/api"
-	oldEvent "github.com/m1k1o/neko/server/internal/http/legacy/event"
-	oldMessage "github.com/m1k1o/neko/server/internal/http/legacy/message"
-	oldTypes "github.com/m1k1o/neko/server/internal/http/legacy/types"
+	"github.com/HiradNikoo/neko/server/internal/api"
+	oldEvent "github.com/HiradNikoo/neko/server/internal/http/legacy/event"
+	oldMessage "github.com/HiradNikoo/neko/server/internal/http/legacy/message"
+	oldTypes "github.com/HiradNikoo/neko/server/internal/http/legacy/types"
 
-	"github.com/m1k1o/neko/server/pkg/types"
-	"github.com/m1k1o/neko/server/pkg/types/event"
-	"github.com/m1k1o/neko/server/pkg/types/message"
-	"github.com/m1k1o/neko/server/pkg/utils"
+	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/HiradNikoo/neko/server/pkg/types/event"
+	"github.com/HiradNikoo/neko/server/pkg/types/message"
+	"github.com/HiradNikoo/neko/server/pkg/utils"
 
 	"github.com/gorilla/websocket"
 	"github.com/rs/zerolog"

@@ -5,12 +5,12 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/m1k1o/neko/server/internal/api/members"
-	"github.com/m1k1o/neko/server/internal/api/room"
-	"github.com/m1k1o/neko/server/internal/api/sessions"
-	"github.com/m1k1o/neko/server/pkg/auth"
-	"github.com/m1k1o/neko/server/pkg/types"
-	"github.com/m1k1o/neko/server/pkg/utils"
+	"github.com/HiradNikoo/neko/server/internal/api/members"
+	"github.com/HiradNikoo/neko/server/internal/api/room"
+	"github.com/HiradNikoo/neko/server/internal/api/sessions"
+	"github.com/HiradNikoo/neko/server/pkg/auth"
+	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/HiradNikoo/neko/server/pkg/utils"
 )
 
 type ApiManagerCtx struct {

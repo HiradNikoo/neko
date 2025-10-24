@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If there are any vulnerabilities in **m1k1o/neko**, don't hesitate to _report them_.
+If there are any vulnerabilities in **HiradNikoo/neko**, don't hesitate to _report them_.
 
 1. Send an email to `security@m1k1o.net`.
 

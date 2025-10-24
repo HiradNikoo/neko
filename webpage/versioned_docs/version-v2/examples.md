@@ -10,7 +10,7 @@ sidebar_position: 3
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:firefox"
+    image: "HiradNikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -32,7 +32,7 @@ services:
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:chromium"
+    image: "HiradNikoo/neko:chromium"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -54,7 +54,7 @@ services:
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:vlc"
+    image: "HiradNikoo/neko:vlc"
     restart: "unless-stopped"
     shm_size: "2gb"
     volumes:
@@ -79,7 +79,7 @@ version: "3.4"
 services:
   neko:
     # see docs for more variants
-    image: "ghcr.io/m1k1o/neko/arm-chromium:latest"
+    image: "ghcr.io/HiradNikoo/neko/arm-chromium:latest"
     restart: "unless-stopped"
     # increase on rpi's with more then 1gb ram.
     shm_size: "520mb"
@@ -110,4 +110,4 @@ services:
 
 ## Not using docker?
 
-You can execute `neko --help` to see available arguments. In [Dockerfile](https://github.com/m1k1o/neko/blob/master/.docker/base/Dockerfile) you can find required dependencies and install them manually.
+You can execute `neko --help` to see available arguments. In [Dockerfile](https://github.com/HiradNikoo/neko/blob/master/.docker/base/Dockerfile) you can find required dependencies and install them manually.

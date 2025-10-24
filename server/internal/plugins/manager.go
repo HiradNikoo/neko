@@ -10,10 +10,10 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	"github.com/m1k1o/neko/server/internal/config"
-	"github.com/m1k1o/neko/server/internal/plugins/chat"
-	"github.com/m1k1o/neko/server/internal/plugins/filetransfer"
-	"github.com/m1k1o/neko/server/pkg/types"
+	"github.com/HiradNikoo/neko/server/internal/config"
+	"github.com/HiradNikoo/neko/server/internal/plugins/chat"
+	"github.com/HiradNikoo/neko/server/internal/plugins/filetransfer"
+	"github.com/HiradNikoo/neko/server/pkg/types"
 )
 
 type ManagerCtx struct {

@@ -5,9 +5,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/m1k1o/neko/server/pkg/auth"
-	"github.com/m1k1o/neko/server/pkg/types"
-	"github.com/m1k1o/neko/server/pkg/utils"
+	"github.com/HiradNikoo/neko/server/pkg/auth"
+	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/HiradNikoo/neko/server/pkg/utils"
 )
 
 func (h *RoomHandler) settingsGet(w http.ResponseWriter, r *http.Request) error {

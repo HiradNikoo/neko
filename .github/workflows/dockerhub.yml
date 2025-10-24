@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  DOCKER_IMAGE: m1k1o/neko
+  DOCKER_IMAGE: HiradNikoo/neko
 
 jobs:
   build-base:

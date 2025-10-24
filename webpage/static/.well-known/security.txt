@@ -1,3 +1,3 @@
 Contact: mailto:security@m1k1o.net
-Policy: https://github.com/m1k1o/neko/security
+Policy: https://github.com/HiradNikoo/neko/security
 Expires: 2030-04-01T00:00:00z

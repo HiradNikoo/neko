@@ -31,7 +31,7 @@ In following example, specified range `52000-52100` must be also exposed using d
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:firefox"
+    image: "hiradnikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -99,7 +99,7 @@ If your IP is not correct, you can specify own IP resolver using `NEKO_IPFETCH`.
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:firefox"
+    image: "hiradnikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -122,7 +122,7 @@ Or you can specify your IP address manually using `NEKO_NAT1TO1`: (It's read as 
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:firefox"
+    image: "hiradnikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -169,7 +169,7 @@ To see verbose information from n.eko server, you can enable debug mode using `N
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:firefox"
+    image: "hiradnikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -239,7 +239,7 @@ This error originates from browser, that it could not connect to dbus. This does
 
 ### Broadcast pipeline not working with some ingest servers
 
-See [related issue](https://github.com/m1k1o/neko/issues/276).
+See [related issue](https://github.com/hiradnikoo/neko/issues/276).
 
 ```
 Could not connect to RTMP stream "'rtmp://<ingest-url>/live/<stream-key-removed> live=1'" for writing

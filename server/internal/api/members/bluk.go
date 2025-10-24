@@ -5,8 +5,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/m1k1o/neko/server/pkg/types"
-	"github.com/m1k1o/neko/server/pkg/utils"
+	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/HiradNikoo/neko/server/pkg/utils"
 )
 
 type MemberBulkUpdatePayload struct {
