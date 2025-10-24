@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/HiradNikoo/neko/server/pkg/utils"
+	"github.com/hiradnikoo/neko/server/pkg/utils"
 
 	"github.com/spf13/cobra"
 )

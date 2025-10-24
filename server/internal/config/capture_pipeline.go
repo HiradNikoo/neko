@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/HiradNikoo/neko/server/pkg/gst"
-	"github.com/HiradNikoo/neko/server/pkg/types/codec"
+	"github.com/hiradnikoo/neko/server/pkg/gst"
+	"github.com/hiradnikoo/neko/server/pkg/types/codec"
 )
 
 /*

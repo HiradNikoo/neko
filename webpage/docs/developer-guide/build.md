@@ -9,7 +9,7 @@ This guide walks you through the process of setting up Neko on your local machin
 Start by cloning the Neko Git repository to your machine:
 
 ```bash
-git clone https://github.com/HiradNikoo/neko.git
+git clone https://github.com/hiradnikoo/neko.git
 cd neko
 ```
 

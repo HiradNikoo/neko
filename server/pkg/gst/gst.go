@@ -16,7 +16,7 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/types"
 )
 
 var (

@@ -3,7 +3,7 @@ package message
 import (
 	"github.com/pion/webrtc/v3"
 
-	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/types"
 )
 
 /////////////////////////////

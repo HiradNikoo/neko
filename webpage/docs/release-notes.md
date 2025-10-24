@@ -3,20 +3,20 @@
 ## master {#master}
 
 ### New Features {#master-feats}
-- Scroll to chat on mobile ([#496](https://github.com/HiradNikoo/neko/pull/496))
-- Added mobile keyboard icon to open the keyboard on mobile devices ([#497](https://github.com/HiradNikoo/neko/pull/497))
+- Scroll to chat on mobile ([#496](https://github.com/hiradnikoo/neko/pull/496))
+- Added mobile keyboard icon to open the keyboard on mobile devices ([#497](https://github.com/hiradnikoo/neko/pull/497))
 
 ### Fixes {#master-fixes}
 - Fixed various bugs related to the legacy client and migration.
-- Fixed long standing issue [#279](https://github.com/HiradNikoo/neko/pull/279) where Google Chrome GPU acceleration did not work with Nvidia GPUs, thanks to [@TobyColeman](https://github.com/TobyColeman), [@alexbakerdev](https://github.com/alexbakerdev) and [@samstefan](https://github.com/samstefan) from [@wearewildcards](https://github.com/wearewildcards).
+- Fixed long standing issue [#279](https://github.com/hiradnikoo/neko/pull/279) where Google Chrome GPU acceleration did not work with Nvidia GPUs, thanks to [@TobyColeman](https://github.com/TobyColeman), [@alexbakerdev](https://github.com/alexbakerdev) and [@samstefan](https://github.com/samstefan) from [@wearewildcards](https://github.com/wearewildcards).
 
 ### Misc {#master-misc}
-- Added an https condition to the healthcheck ([#503](https://github.com/HiradNikoo/neko/pull/503), by @Garrulousbrevity).
+- Added an https condition to the healthcheck ([#503](https://github.com/hiradnikoo/neko/pull/503), by @Garrulousbrevity).
 
-## [n.eko v3.0.0](https://github.com/HiradNikoo/neko/releases/tag/v3.0.0) {#v3.0.0}
+## [n.eko v3.0.0](https://github.com/hiradnikoo/neko/releases/tag/v3.0.0) {#v3.0.0}
 
 ### Repository Changes {#v3.0.0-repo}
-- The default registry is now `ghcr.io/HiradNikoo/neko` instead of `docker.io/HiradNikoo/neko`.
+- The default registry is now `ghcr.io/hiradnikoo/neko` instead of `docker.io/hiradnikoo/neko`.
 - Multiarch builds for `linux/amd64`, `linux/arm64`, and `linux/arm/v7` are now available instead of `arm-`based images.
 - App folders from `.docker/` have been moved to `apps/`.
 - Dev scripts from `.docker/` are now available in `client/dev/` and `server/dev/`.
@@ -29,7 +29,7 @@
 ### Server Changes {#v3.0.0-server}
 - A REST API with OpenAPI 3.0 documentation is now available.
 - Prometheus metrics are now available.
-- The server name is now `github.com/HiradNikoo/neko/server` and can be used as a library.
+- The server name is now `github.com/hiradnikoo/neko/server` and can be used as a library.
 - Reusable components and types are available in the `server/pkg/` folder, such as `gst`, `xevent`, and `xorg`.
 - A new authentication system with support for multiple authentication methods has been added.
 - A new user management system with support for granular feature access control has been implemented.
@@ -68,7 +68,7 @@
 
 Please note that in this version, only the server has been updated. The client is still in the old version; therefore, new features may not yet be available in the client.
 
-## [n.eko v2.9.0](https://github.com/HiradNikoo/neko/releases/tag/v2.9.0) {#v2.9.0}
+## [n.eko v2.9.0](https://github.com/hiradnikoo/neko/releases/tag/v2.9.0) {#v2.9.0}
 
 ### New Features {#v2.9.0-feats}
 - Added nvidia support for firefox.
@@ -79,18 +79,18 @@ Please note that in this version, only the server has been updated. The client i
 
 ### Bugs {#v2.9.0-bugs}
 - Fix incorrect version sorting for chromium, microsoft-edge, opera and ungoogledchromium.
-- Fix buffer overflow in Gstreamer log function [#382](https://github.com/HiradNikoo/neko/pull/382) (by @tt2468).
+- Fix buffer overflow in Gstreamer log function [#382](https://github.com/hiradnikoo/neko/pull/382) (by @tt2468).
 
 ### Misc {#v2.9.0-misc}
-- Added RTMP broadcast support to nvidia docker image [#274](https://github.com/HiradNikoo/neko/issues/274).
-- Ensured that paths are writable by neko user [#277](https://github.com/HiradNikoo/neko/issues/277).
+- Added RTMP broadcast support to nvidia docker image [#274](https://github.com/hiradnikoo/neko/issues/274).
+- Ensured that paths are writable by neko user [#277](https://github.com/hiradnikoo/neko/issues/277).
 - Git commit and tag are now included in the build when creating a docker image.
 - Remove any temporary files associated with a Form after file upload, that would be otherwise never removed.
 - Add check for volume parameter in URL before setting volume (by @FapFapDragon).
-- Add glib main loop to capture manager [#383](https://github.com/HiradNikoo/neko/pull/383) (by @tt2468).
+- Add glib main loop to capture manager [#383](https://github.com/hiradnikoo/neko/pull/383) (by @tt2468).
 - Sync clipboard only if in focus.
 
-## [n.eko v2.8.0](https://github.com/HiradNikoo/neko/releases/tag/v2.8.0) {#v2.8.0}
+## [n.eko v2.8.0](https://github.com/hiradnikoo/neko/releases/tag/v2.8.0) {#v2.8.0}
 
 ### New Features {#v2.8.0-feats}
 - Added AV1 tag, metadata and pipeline. Unfortunately does not work yet, since the encoding is way too slow (by @mbattista).
@@ -119,7 +119,7 @@ Please note that in this version, only the server has been updated. The client i
 - Renamed pulseaudio sink from `auto_null` to `audio_output`, because it was ignored by KDE.
 - Pulseaudio is now configured using environment variables, so that users can mount `/home/neko` without losing audio configuration.
 
-## [n.eko v2.7](https://github.com/HiradNikoo/neko/releases/tag/v2.7) {#v2.7}
+## [n.eko v2.7](https://github.com/hiradnikoo/neko/releases/tag/v2.7) {#v2.7}
 
 ### New Features {#v2.7-feats}
 - Added `HiradNikoo/neko:vivaldi` tag (thanks @Xeddius).
@@ -136,10 +136,10 @@ Please note that in this version, only the server has been updated. The client i
 - Added CORS.
 - Opera versions are not hardcoded in Dockerfile anymore but automatically are fetch latest.
 
-## [n.eko v2.6](https://github.com/HiradNikoo/neko/releases/tag/v2.6) {#v2.6}
+## [n.eko v2.6](https://github.com/hiradnikoo/neko/releases/tag/v2.6) {#v2.6}
 
 ### Bugs {#v2.6-bugs}
-- Fixed fullscreen incompatibility for Safari [#121](https://github.com/HiradNikoo/neko/issues/121).
+- Fixed fullscreen incompatibility for Safari [#121](https://github.com/hiradnikoo/neko/issues/121).
 - Fixed bad emoji matching for e.g. `:+1:` and `:100:` with new regex `/^:([^:\s]+):/`.
 
 ### New Features {#v2.6-feats}
@@ -159,11 +159,11 @@ Please note that in this version, only the server has been updated. The client i
 - Font Awesome and Sweetalert2 upgraded to newest major version.
 - Add chinese characters support.
 
-## [n.eko v2.5](https://github.com/HiradNikoo/neko/releases/tag/v2.5) {#v2.5}
+## [n.eko v2.5](https://github.com/hiradnikoo/neko/releases/tag/v2.5) {#v2.5}
 
 ### Bugs {#v2.5-bugs}
 - Fix ungoogled-chromium auto build bug.
-- Audio on iOS works now! Apparently only for 15+ though [#62](https://github.com/HiradNikoo/neko/issues/62).
+- Audio on iOS works now! Apparently only for 15+ though [#62](https://github.com/hiradnikoo/neko/issues/62).
 
 ### New Features {#v2.5-feats}
 - Lock controls for users, globally.
@@ -182,7 +182,7 @@ Please note that in this version, only the server has been updated. The client i
 - Sync player play/pause/mute/umpute/volume state with store (beneficial for mobiles when using fullscreen mode).
 - Automatic WebRTC SDP negotiation using `onnegotiationneeded` handlers. This allows adding/removing track on demand in a session.
 
-## [n.eko v2.4](https://github.com/HiradNikoo/neko/releases/tag/v2.4) {#v2.4}
+## [n.eko v2.4](https://github.com/hiradnikoo/neko/releases/tag/v2.4) {#v2.4}
 
 ### New Features {#v2.4-feats}
 - Show red dot badge on sidebar toggle if there are new messages, and user can't see them.
@@ -206,7 +206,7 @@ Please note that in this version, only the server has been updated. The client i
 - Refactored RTMP broadcast design #88.
 - Based on Debian 11 #91.
 
-## [n.eko v2.3](https://github.com/HiradNikoo/neko/releases/tag/v2.3) {#v2.3}
+## [n.eko v2.3](https://github.com/hiradnikoo/neko/releases/tag/v2.3) {#v2.3}
 
 ### New Features {#v2.3-feats}
 - Added simple language picker.
@@ -230,7 +230,7 @@ Please note that in this version, only the server has been updated. The client i
 - While IP address fetching is now proxy ignored.
 - Start unmuted on reconnects and auto unmute on any control attempt.
 
-## [n.eko v2.2](https://github.com/HiradNikoo/neko/releases/tag/v2.2) {#v2.2}
+## [n.eko v2.2](https://github.com/hiradnikoo/neko/releases/tag/v2.2) {#v2.2}
 
 ### New Features {#v2.2-feats}
 - Added limited support for some mobile browsers with `playsinline` attribute.
@@ -259,7 +259,7 @@ Please note that in this version, only the server has been updated. The client i
 - Abiltiy to include neko as a component in another Vue.Js project (by @gbrian).
 - Added HEALTHCHECK to Dockerfile.
 
-## [n.eko v2.1](https://github.com/HiradNikoo/neko/releases/tag/v2.1) {#v2.1}
+## [n.eko v2.1](https://github.com/hiradnikoo/neko/releases/tag/v2.1) {#v2.1}
 
 ### New Features {#v2.1-feats}
 - Clipboard button with text area - for browsers, that don't support clipboard syncing or for HTTP.

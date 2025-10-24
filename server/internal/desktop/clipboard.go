@@ -6,8 +6,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/xevent"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/xevent"
 )
 
 const (

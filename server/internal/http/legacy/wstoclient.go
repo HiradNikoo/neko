@@ -8,15 +8,15 @@ import (
 	"github.com/pion/webrtc/v3"
 	"github.com/spf13/viper"
 
-	oldEvent "github.com/HiradNikoo/neko/server/internal/http/legacy/event"
-	oldMessage "github.com/HiradNikoo/neko/server/internal/http/legacy/message"
-	oldTypes "github.com/HiradNikoo/neko/server/internal/http/legacy/types"
+	oldEvent "github.com/hiradnikoo/neko/server/internal/http/legacy/event"
+	oldMessage "github.com/hiradnikoo/neko/server/internal/http/legacy/message"
+	oldTypes "github.com/hiradnikoo/neko/server/internal/http/legacy/types"
 
-	"github.com/HiradNikoo/neko/server/internal/plugins/chat"
-	"github.com/HiradNikoo/neko/server/internal/plugins/filetransfer"
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/types/event"
-	"github.com/HiradNikoo/neko/server/pkg/types/message"
+	"github.com/hiradnikoo/neko/server/internal/plugins/chat"
+	"github.com/hiradnikoo/neko/server/internal/plugins/filetransfer"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/types/event"
+	"github.com/hiradnikoo/neko/server/pkg/types/message"
 )
 
 func profileToMember(id string, profile types.MemberProfile) (*oldTypes.Member, error) {

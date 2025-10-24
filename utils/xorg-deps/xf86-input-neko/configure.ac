@@ -22,7 +22,7 @@
 # Process this file with autoconf to produce a configure script
 
 AC_PREREQ(2.59)
-AC_INIT([xf86-input-neko],[0.0.1],[https://github.com/HiradNikoo/neko/issues],[xf86-input-neko],[https://github.com/HiradNikoo/neko])
+AC_INIT([xf86-input-neko],[0.0.1],[https://github.com/hiradnikoo/neko/issues],[xf86-input-neko],[https://github.com/hiradnikoo/neko])
 
 AC_CONFIG_SRCDIR([Makefile.am])
 AC_CONFIG_AUX_DIR(.)

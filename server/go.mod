@@ -1,4 +1,4 @@
-module github.com/HiradNikoo/neko/server
+module github.com/hiradnikoo/neko/server
 
 go 1.24.0
 

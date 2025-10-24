@@ -3,9 +3,9 @@ package handler
 import (
 	"errors"
 
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/types/event"
-	"github.com/HiradNikoo/neko/server/pkg/types/message"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/types/event"
+	"github.com/hiradnikoo/neko/server/pkg/types/message"
 )
 
 func (h *MessageHandlerCtx) sendUnicast(session types.Session, payload *message.SendUnicast) error {

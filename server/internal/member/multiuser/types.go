@@ -1,6 +1,6 @@
 package multiuser
 
-import "github.com/HiradNikoo/neko/server/pkg/types"
+import "github.com/hiradnikoo/neko/server/pkg/types"
 
 type Config struct {
 	AdminPassword string

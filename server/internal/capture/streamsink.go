@@ -12,9 +12,9 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/HiradNikoo/neko/server/pkg/gst"
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/types/codec"
+	"github.com/hiradnikoo/neko/server/pkg/gst"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/types/codec"
 )
 
 var moveSinkListenerMu = sync.Mutex{}

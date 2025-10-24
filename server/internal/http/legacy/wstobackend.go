@@ -7,15 +7,15 @@ import (
 
 	"github.com/pion/webrtc/v3"
 
-	oldEvent "github.com/HiradNikoo/neko/server/internal/http/legacy/event"
-	oldMessage "github.com/HiradNikoo/neko/server/internal/http/legacy/message"
+	oldEvent "github.com/hiradnikoo/neko/server/internal/http/legacy/event"
+	oldMessage "github.com/hiradnikoo/neko/server/internal/http/legacy/message"
 
-	"github.com/HiradNikoo/neko/server/internal/api/room"
-	"github.com/HiradNikoo/neko/server/internal/plugins/chat"
-	"github.com/HiradNikoo/neko/server/internal/plugins/filetransfer"
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/types/event"
-	"github.com/HiradNikoo/neko/server/pkg/types/message"
+	"github.com/hiradnikoo/neko/server/internal/api/room"
+	"github.com/hiradnikoo/neko/server/internal/plugins/chat"
+	"github.com/hiradnikoo/neko/server/internal/plugins/filetransfer"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/types/event"
+	"github.com/hiradnikoo/neko/server/pkg/types/message"
 )
 
 func (s *session) wsToBackend(msg []byte) error {

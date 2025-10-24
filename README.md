@@ -1,19 +1,19 @@
 <div align="center">
-  <a href="https://github.com/HiradNikoo/neko" title="Neko's Github repository.">
+  <a href="https://github.com/hiradnikoo/neko" title="Neko's Github repository.">
     <img src="https://neko.m1k1o.net/img/logo.png" width="400" height="auto"/>
   </a>
   <p align="center">
-    <a href="https://github.com/HiradNikoo/neko/releases">
-      <img src="https://img.shields.io/github/v/release/HiradNikoo/neko" alt="release">
+    <a href="https://github.com/hiradnikoo/neko/releases">
+      <img src="https://img.shields.io/github/v/release/hiradnikoo/neko" alt="release">
     </a>
-    <a href="https://github.com/HiradNikoo/neko/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/HiradNikoo/neko" alt="license">
+    <a href="https://github.com/hiradnikoo/neko/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/hiradnikoo/neko" alt="license">
     </a>
-    <a href="https://hub.docker.com/r/HiradNikoo/neko">
-      <img src="https://img.shields.io/docker/pulls/HiradNikoo/neko" alt="pulls">
+    <a href="https://hub.docker.com/r/hiradnikoo/neko">
+      <img src="https://img.shields.io/docker/pulls/hiradnikoo/neko" alt="pulls">
     </a>
-    <a href="https://github.com/HiradNikoo/neko/issues">
-      <img src="https://img.shields.io/github/issues/HiradNikoo/neko" alt="issues">
+    <a href="https://github.com/hiradnikoo/neko/issues">
+      <img src="https://img.shields.io/github/issues/hiradnikoo/neko" alt="issues">
     </a>
     <a href="https://github.com/sponsors/m1k1o">
       <img src="https://img.shields.io/badge/-sponsor-red" alt="issues">
@@ -24,8 +24,8 @@
     <a href="https://hellogithub.com/repository/4536d4546af24196af3f08a023dfa007" target="_blank">
       <img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=4536d4546af24196af3f08a023dfa007&claim_uid=0x19e4dJwD83aW2&theme=small" alt="Featured｜HelloGitHub" />
     </a>
-    <a href="https://github.com/HiradNikoo/neko/actions">
-      <img src="https://github.com/HiradNikoo/neko/actions/workflows/ghcr.yml/badge.svg" alt="build">
+    <a href="https://github.com/hiradnikoo/neko/actions">
+      <img src="https://github.com/hiradnikoo/neko/actions/workflows/ghcr.yml/badge.svg" alt="build">
     </a>
   </p>
   <img src="https://neko.m1k1o.net/img/intro.gif" width="650" height="auto"/>
@@ -61,7 +61,7 @@ Primary use case is connecting with multiple people, leveraging real time synchr
 - **Support/Teaching** - interactively guiding people in controlled environment.
 - **Embed anything** - embed virtual browser in your web app - open source alternative to [hyperbeam API](https://hyperbeam.com/).
   - open any third-party website or application, synchronize audio and video flawlessly among multiple participants.
-  - request rooms using API with [neko-rooms](https://github.com/HiradNikoo/neko-rooms).
+  - request rooms using API with [neko-rooms](https://github.com/hiradnikoo/neko-rooms).
 
 Other use cases that benefit from single-user:
 - **Personal workspace** - streaming containerized apps and desktops to end-users - similar to [kasm](https://www.kasmweb.com/).
@@ -69,7 +69,7 @@ Other use cases that benefit from single-user:
   - no state is left on the host browser after terminating the connection.
   - sensitive data like cookies are not transferred - only video is shared.
 - **Throwaway browser** - a better solution for planning secret parties and buying birthday gifts off the internet.
-  - use Tor Browser and [VPN](https://github.com/HiradNikoo/neko-vpn) for additional anonymity.
+  - use Tor Browser and [VPN](https://github.com/hiradnikoo/neko-vpn) for additional anonymity.
   - mitigates risk of OS fingerprinting and browser vulnerabilities by running in container.
 - **Session broadcasting** - broadcast room content using RTMP (to e.g. twitch or youtube...).
 - **Session recording** - broadcast RTMP can be saved to a file using e.g. [nginx-rtmp](https://www.nginx.com/products/nginx/modules/rtmp-media-streaming/)
@@ -87,34 +87,34 @@ Compared to clientless remote desktop gateway (e.g. [Apache Guacamole](https://g
 
 <div align="center">
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#firefox">
-    <img src="https://neko.m1k1o.net/img/icons/firefox.svg" title="ghcr.io/HiradNikoo/neko/firefox" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/firefox.svg" title="ghcr.io/hiradnikoo/neko/firefox" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#tor-browser">
-    <img src="https://neko.m1k1o.net/img/icons/tor-browser.svg" title="ghcr.io/HiradNikoo/neko/tor-browser" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/tor-browser.svg" title="ghcr.io/hiradnikoo/neko/tor-browser" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#waterfox">
-    <img src="https://neko.m1k1o.net/img/icons/waterfox.svg" title="ghcr.io/HiradNikoo/neko/waterfox" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/waterfox.svg" title="ghcr.io/hiradnikoo/neko/waterfox" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#chromium">
-    <img src="https://neko.m1k1o.net/img/icons/chromium.svg" title="ghcr.io/HiradNikoo/neko/chromium" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/chromium.svg" title="ghcr.io/hiradnikoo/neko/chromium" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#google-chrome">
-    <img src="https://neko.m1k1o.net/img/icons/google-chrome.svg" title="ghcr.io/HiradNikoo/neko/google-chrome" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/google-chrome.svg" title="ghcr.io/hiradnikoo/neko/google-chrome" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#ungoogled-chromium">
-    <img src="https://neko.m1k1o.net/img/icons/ungoogled-chromium.svg" title="ghcr.io/HiradNikoo/neko/google-chrome" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/ungoogled-chromium.svg" title="ghcr.io/hiradnikoo/neko/google-chrome" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#microsoft-edge">
-    <img src="https://neko.m1k1o.net/img/icons/microsoft-edge.svg" title="ghcr.io/HiradNikoo/neko/microsoft-edge" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/microsoft-edge.svg" title="ghcr.io/hiradnikoo/neko/microsoft-edge" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#brave">
-    <img src="https://neko.m1k1o.net/img/icons/brave.svg" title="ghcr.io/HiradNikoo/neko/brave" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/brave.svg" title="ghcr.io/hiradnikoo/neko/brave" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#vivaldi">
-    <img src="https://neko.m1k1o.net/img/icons/vivaldi.svg" title="ghcr.io/HiradNikoo/neko/vivaldi" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/vivaldi.svg" title="ghcr.io/hiradnikoo/neko/vivaldi" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#opera">
-    <img src="https://neko.m1k1o.net/img/icons/opera.svg" title="ghcr.io/HiradNikoo/neko/opera" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/opera.svg" title="ghcr.io/hiradnikoo/neko/opera" width="60" height="auto"/>
   </a>
 
   ... see [all available images](https://neko.m1k1o.net/docs/v3/installation/docker-images)
@@ -124,19 +124,19 @@ Compared to clientless remote desktop gateway (e.g. [Apache Guacamole](https://g
 
 <div align="center">
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#xfce">
-    <img src="https://neko.m1k1o.net/img/icons/xfce.svg" title="ghcr.io/HiradNikoo/neko/xfce" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/xfce.svg" title="ghcr.io/hiradnikoo/neko/xfce" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#kde">
-    <img src="https://neko.m1k1o.net/img/icons/kde.svg" title="ghcr.io/HiradNikoo/neko/kde" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/kde.svg" title="ghcr.io/hiradnikoo/neko/kde" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#remmina">
-    <img src="https://neko.m1k1o.net/img/icons/remmina.svg" title="ghcr.io/HiradNikoo/neko/remmina" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/remmina.svg" title="ghcr.io/hiradnikoo/neko/remmina" width="60" height="auto"/>
   </a>
   <a href="https://neko.m1k1o.net/docs/v3/installation/docker-images#vlc">
-    <img src="https://neko.m1k1o.net/img/icons/vlc.svg" title="ghcr.io/HiradNikoo/neko/vlc" width="60" height="auto"/>
+    <img src="https://neko.m1k1o.net/img/icons/vlc.svg" title="ghcr.io/hiradnikoo/neko/vlc" width="60" height="auto"/>
   </a>
 
-  ... others in <a href="https://github.com/HiradNikoo/neko-apps">HiradNikoo/neko-apps</a>
+  ... others in <a href="https://github.com/hiradnikoo/neko-apps">HiradNikoo/neko-apps</a>
 </div>
 
 ### Why neko?
@@ -147,9 +147,9 @@ I like cats 🐱 (`Neko` is the Japanese word for cat), I'm a weeb/nerd.
 
 ## Multiple rooms
 
-For neko room management software, visit [neko-rooms](https://github.com/HiradNikoo/neko-rooms).
+For neko room management software, visit [neko-rooms](https://github.com/hiradnikoo/neko-rooms).
 
-It also offers [Zero-knowledge installation (with HTTPS)](https://github.com/HiradNikoo/neko-rooms/?tab=readme-ov-file#zero-knowledge-installation-with-https).
+It also offers [Zero-knowledge installation (with HTTPS)](https://github.com/hiradnikoo/neko-rooms/?tab=readme-ov-file#zero-knowledge-installation-with-https).
 
 ## Documentation
 

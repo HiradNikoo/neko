@@ -7,12 +7,12 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/HiradNikoo/neko/server/internal/config"
-	"github.com/HiradNikoo/neko/server/internal/member/file"
-	"github.com/HiradNikoo/neko/server/internal/member/multiuser"
-	"github.com/HiradNikoo/neko/server/internal/member/noauth"
-	"github.com/HiradNikoo/neko/server/internal/member/object"
-	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/internal/config"
+	"github.com/hiradnikoo/neko/server/internal/member/file"
+	"github.com/hiradnikoo/neko/server/internal/member/multiuser"
+	"github.com/hiradnikoo/neko/server/internal/member/noauth"
+	"github.com/hiradnikoo/neko/server/internal/member/object"
+	"github.com/hiradnikoo/neko/server/pkg/types"
 )
 
 func New(sessions types.SessionManager, config *config.Member) *MemberManagerCtx {

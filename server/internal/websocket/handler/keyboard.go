@@ -3,8 +3,8 @@ package handler
 import (
 	"errors"
 
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/types/message"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/types/message"
 )
 
 func (h *MessageHandlerCtx) keyboardMap(session types.Session, payload *message.KeyboardMap) error {

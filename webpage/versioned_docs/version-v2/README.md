@@ -67,43 +67,43 @@ Please use images below:
 - `ghcr.io/hiradnikoo/neko/arm-chromium:latest`
 - `ghcr.io/hiradnikoo/neko/arm-ungoogled-chromium:latest`
 - `ghcr.io/hiradnikoo/neko/arm-vlc:latest`
-- `ghcr.io/HiradNikoo/neko/arm-xfce:latest`
+- `ghcr.io/hiradnikoo/neko/arm-xfce:latest`
 
 For images with VAAPI GPU hardware acceleration using intel drivers use:
 
-- `ghcr.io/HiradNikoo/neko/intel-firefox:latest`
-- `ghcr.io/HiradNikoo/neko/intel-chromium:latest`
-- `ghcr.io/HiradNikoo/neko/intel-google-chrome:latest`
-- `ghcr.io/HiradNikoo/neko/intel-ungoogled-chromium:latest`
-- `ghcr.io/HiradNikoo/neko/intel-microsoft-edge:latest`
-- `ghcr.io/HiradNikoo/neko/intel-brave:latest`
-- `ghcr.io/HiradNikoo/neko/intel-vivaldi:latest`
-- `ghcr.io/HiradNikoo/neko/intel-opera:latest`
-- `ghcr.io/HiradNikoo/neko/intel-tor-browser:latest`
-- `ghcr.io/HiradNikoo/neko/intel-remmina:latest`
-- `ghcr.io/HiradNikoo/neko/intel-vlc:latest`
-- `ghcr.io/HiradNikoo/neko/intel-xfce:latest`
-- `ghcr.io/HiradNikoo/neko/intel-kde:latest`
+- `ghcr.io/hiradnikoo/neko/intel-firefox:latest`
+- `ghcr.io/hiradnikoo/neko/intel-chromium:latest`
+- `ghcr.io/hiradnikoo/neko/intel-google-chrome:latest`
+- `ghcr.io/hiradnikoo/neko/intel-ungoogled-chromium:latest`
+- `ghcr.io/hiradnikoo/neko/intel-microsoft-edge:latest`
+- `ghcr.io/hiradnikoo/neko/intel-brave:latest`
+- `ghcr.io/hiradnikoo/neko/intel-vivaldi:latest`
+- `ghcr.io/hiradnikoo/neko/intel-opera:latest`
+- `ghcr.io/hiradnikoo/neko/intel-tor-browser:latest`
+- `ghcr.io/hiradnikoo/neko/intel-remmina:latest`
+- `ghcr.io/hiradnikoo/neko/intel-vlc:latest`
+- `ghcr.io/hiradnikoo/neko/intel-xfce:latest`
+- `ghcr.io/hiradnikoo/neko/intel-kde:latest`
 
-For images with Nvidia GPU hardware acceleration using EGL (see example below) use (please note, there is a known issue with EGL and Chromium-based browsers, see [here](https://github.com/HiradNikoo/neko/issues/279)):
+For images with Nvidia GPU hardware acceleration using EGL (see example below) use (please note, there is a known issue with EGL and Chromium-based browsers, see [here](https://github.com/hiradnikoo/neko/issues/279)):
 
-- `ghcr.io/HiradNikoo/neko/nvidia-firefox:latest`
-- `ghcr.io/HiradNikoo/neko/nvidia-chromium:latest`
-- `ghcr.io/HiradNikoo/neko/nvidia-google-chrome:latest`
-- `ghcr.io/HiradNikoo/neko/nvidia-microsoft-edge:latest`
-- `ghcr.io/HiradNikoo/neko/nvidia-brave:latest`
+- `ghcr.io/hiradnikoo/neko/nvidia-firefox:latest`
+- `ghcr.io/hiradnikoo/neko/nvidia-chromium:latest`
+- `ghcr.io/hiradnikoo/neko/nvidia-google-chrome:latest`
+- `ghcr.io/hiradnikoo/neko/nvidia-microsoft-edge:latest`
+- `ghcr.io/hiradnikoo/neko/nvidia-brave:latest`
 
 GHCR images are built using GitHub actions for every tag.
 
 :::tip
-For more applications, check out [HiradNikoo/neko-apps](https://github.com/HiradNikoo/neko-apps).
+For more applications, check out [HiradNikoo/neko-apps](https://github.com/hiradnikoo/neko-apps).
 :::
 
 ### Networking:
 - If you want to use n.eko in **external** network, you can omit `NEKO_NAT1TO1`. It will automatically get your Public IP.
 - If you want to use n.eko in **internal** network, set `NEKO_NAT1TO1` to your local IP address (e.g. `NEKO_NAT1TO1: 192.168.1.20`)-
 
-Currently, it is not supported to supply multiple NAT addresses directly to neko  (see https://github.com/HiradNikoo/neko/issues/47).
+Currently, it is not supported to supply multiple NAT addresses directly to neko  (see https://github.com/hiradnikoo/neko/issues/47).
 
 But it can be acheived by deploying own turn server alongside neko that is accessible from your LAN:
 
@@ -216,8 +216,8 @@ NEKO_ICESERVERS: '[{"urls": ["turn:<MY-COTURN-SERVER>:443?transport=udp", "turn:
 
 ### Want to customize and install own add-ons, set custom bookmarks?
 - You would need to modify the existing policy file and mount it to your container.
-- For Firefox, copy [this](https://github.com/HiradNikoo/neko/blob/master/.docker/firefox/policies.json) file, modify and mount it as: ` -v '${PWD}/policies.json:/usr/lib/firefox/distribution/policies.json'`
-- For Chromium, copy [this](https://github.com/HiradNikoo/neko/blob/master/.docker/chromium/policies.json) file, modify and mount it as: ` -v '${PWD}/policies.json:/etc/chromium/policies/managed/policies.json'`
+- For Firefox, copy [this](https://github.com/hiradnikoo/neko/blob/master/.docker/firefox/policies.json) file, modify and mount it as: ` -v '${PWD}/policies.json:/usr/lib/firefox/distribution/policies.json'`
+- For Chromium, copy [this](https://github.com/hiradnikoo/neko/blob/master/.docker/chromium/policies.json) file, modify and mount it as: ` -v '${PWD}/policies.json:/etc/chromium/policies/managed/policies.json'`
 - For others, see where existing `policies.json` is placed in their `Dockerfile`.
 
 #### Allow file uploading & downloading
@@ -248,7 +248,7 @@ NEKO_ICESERVERS: '[{"urls": ["turn:<MY-COTURN-SERVER>:443?transport=udp", "turn:
 ### Nvidia GPU acceleration
 
 :::danger
-There is a known issue with EGL and Chromium-based browsers, see [WebGL not working for Nvidia Google Chrome 112.x](https://github.com/HiradNikoo/neko/issues/279).
+There is a known issue with EGL and Chromium-based browsers, see [WebGL not working for Nvidia Google Chrome 112.x](https://github.com/hiradnikoo/neko/issues/279).
 That means currently only Firefox is supported for Nvidia GPU acceleration.
 :::
 
@@ -269,7 +269,7 @@ docker run -d --gpus all \
   --shm-size=2gb \
   --cap-add=SYS_ADMIN \
   --name neko \
-  ghcr.io/HiradNikoo/neko/nvidia-google-chrome:latest
+  ghcr.io/hiradnikoo/neko/nvidia-google-chrome:latest
 ```
 
 If you want to use docker-compose, you can use this example:
@@ -278,7 +278,7 @@ If you want to use docker-compose, you can use this example:
 version: "3.4"
 services:
   neko:
-    image: "ghcr.io/HiradNikoo/neko/nvidia-google-chrome:latest"
+    image: "ghcr.io/hiradnikoo/neko/nvidia-google-chrome:latest"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -307,7 +307,7 @@ services:
 - You can verify that GPU is used for encoding by searching for `nvh264enc` in `docker logs neko` output.
 - If you don'ŧ specify `NEKO_HWENC: nvenc` environment variable, CPU encoding will be used but GPU will still be available for browser rendering.
 
-Broadcast pipeline is not hardware accelerated by default. You can use this pipeline created by [@evilalmus](https://github.com/HiradNikoo/neko/issues/276#issuecomment-1498362533).
+Broadcast pipeline is not hardware accelerated by default. You can use this pipeline created by [@evilalmus](https://github.com/hiradnikoo/neko/issues/276#issuecomment-1498362533).
 
 ```yaml
 NEKO_BROADCAST_PIPELINE: |
@@ -330,13 +330,13 @@ NEKO_BROADCAST_PIPELINE: |
 ```
 
 ### Want to use VPN for your n.eko browsing?
-- Check this out: https://github.com/HiradNikoo/neko-vpn
+- Check this out: https://github.com/hiradnikoo/neko-vpn
 
 ### Want to have multiple rooms on demand?
-- Check this out: https://github.com/HiradNikoo/neko-rooms
+- Check this out: https://github.com/hiradnikoo/neko-rooms
 
 ### Want to use different Apps than Browser?
-- Check this out: https://github.com/HiradNikoo/neko-apps
+- Check this out: https://github.com/hiradnikoo/neko-apps
 
 ### Accounts:
 - There are no accounts, display name (a.k.a. username) can be freely chosen. Only password needs to match. Depending on which password matches, the visitor gets its privilege:

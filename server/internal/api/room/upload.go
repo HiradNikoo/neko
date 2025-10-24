@@ -7,7 +7,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/HiradNikoo/neko/server/pkg/utils"
+	"github.com/hiradnikoo/neko/server/pkg/utils"
 )
 
 // TODO: Extract file uploading to custom utility.

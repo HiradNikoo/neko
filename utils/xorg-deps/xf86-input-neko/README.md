@@ -1,11 +1,11 @@
 # xf86-input-neko
-[X.org](https://x.org/) [neko](http://HiradNikoo/neko) input driver
+[X.org](https://x.org/) [neko](http://hiradnikoo/neko) input driver
 
 ### how to use
 xf86-input-neko assumes you have only one virtual touchscreen device available, see
 `80-neko.conf`. If there are multiple in your system, please specify one config
 section for each.
-xf86-input-neko aims to make [neko](http://HiradNikoo/neko) easy to use and doesn't
+xf86-input-neko aims to make [neko](http://hiradnikoo/neko) easy to use and doesn't
 offer special configuration options.
 
 * `./configure --prefix=/usr`

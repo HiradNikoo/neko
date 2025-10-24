@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/HiradNikoo/neko/server/internal/config"
-	"github.com/HiradNikoo/neko/server/internal/plugins"
+	"github.com/hiradnikoo/neko/server/internal/config"
+	"github.com/hiradnikoo/neko/server/internal/plugins"
 
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"

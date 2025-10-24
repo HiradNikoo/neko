@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=ghcr.io/HiradNikoo/neko/nvidia-base:latest
+ARG BASE_IMAGE=ghcr.io/hiradnikoo/neko/nvidia-base:latest
 FROM $BASE_IMAGE
 
 RUN set -eux; apt-get update; \

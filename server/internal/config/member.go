@@ -5,11 +5,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/HiradNikoo/neko/server/internal/member/file"
-	"github.com/HiradNikoo/neko/server/internal/member/multiuser"
-	"github.com/HiradNikoo/neko/server/internal/member/object"
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/utils"
+	"github.com/hiradnikoo/neko/server/internal/member/file"
+	"github.com/hiradnikoo/neko/server/internal/member/multiuser"
+	"github.com/hiradnikoo/neko/server/internal/member/object"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/utils"
 )
 
 type Member struct {

@@ -37,7 +37,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
-          editUrl: 'https://github.com/HiradNikoo/neko/tree/main/webpage/',
+          editUrl: 'https://github.com/hiradnikoo/neko/tree/main/webpage/',
           lastVersion: 'current',
           versions: {
             current: {
@@ -52,7 +52,7 @@ const config: Config = {
         //    type: ['rss', 'atom'],
         //    xslt: true,
         //  },
-        //  editUrl: 'https://github.com/HiradNikoo/neko/tree/main/docs/',
+        //  editUrl: 'https://github.com/hiradnikoo/neko/tree/main/docs/',
         //  // Useful options to enforce blogging best practices
         //  onInlineTags: 'warn',
         //  onInlineAuthors: 'warn',
@@ -110,7 +110,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/HiradNikoo/neko',
+          href: 'https://github.com/hiradnikoo/neko',
           label: 'GitHub',
           position: 'right',
         },
@@ -124,15 +124,15 @@ const config: Config = {
           items: [
             {
               label: 'Neko Rooms',
-              href: 'https://github.com/HiradNikoo/neko-rooms',
+              href: 'https://github.com/hiradnikoo/neko-rooms',
             },
             {
               label: 'Neko Apps',
-              href: 'https://github.com/HiradNikoo/neko-apps',
+              href: 'https://github.com/hiradnikoo/neko-apps',
             },
             {
               label: 'Neko VPN',
-              href: 'https://github.com/HiradNikoo/neko-vpn',
+              href: 'https://github.com/hiradnikoo/neko-vpn',
             },
           ],
         },
@@ -145,7 +145,7 @@ const config: Config = {
             },
             {
               label: 'Issues',
-              href: 'https://github.com/HiradNikoo/neko/issues',
+              href: 'https://github.com/hiradnikoo/neko/issues',
             },
           ],
         },
@@ -154,7 +154,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/HiradNikoo/neko',
+              href: 'https://github.com/hiradnikoo/neko',
             },
             {
               label: 'Sponsors',
@@ -182,7 +182,7 @@ const config: Config = {
           api: {
             specPath: "../server/openapi.yaml",
             outputDir: "docs/api",
-            downloadUrl: "https://raw.githubusercontent.com/HiradNikoo/neko/refs/heads/master/server/openapi.yaml",
+            downloadUrl: "https://raw.githubusercontent.com/hiradnikoo/neko/refs/heads/master/server/openapi.yaml",
             baseUrl: "/docs/v3/api",
             sidebarOptions: {
               groupPathsBy: "tag",

@@ -10,11 +10,11 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/HiradNikoo/neko/server/internal/config"
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/xevent"
-	"github.com/HiradNikoo/neko/server/pkg/xinput"
-	"github.com/HiradNikoo/neko/server/pkg/xorg"
+	"github.com/hiradnikoo/neko/server/internal/config"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/xevent"
+	"github.com/hiradnikoo/neko/server/pkg/xinput"
+	"github.com/hiradnikoo/neko/server/pkg/xorg"
 )
 
 var mu = sync.Mutex{}

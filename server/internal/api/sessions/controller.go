@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/HiradNikoo/neko/server/pkg/auth"
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/utils"
+	"github.com/hiradnikoo/neko/server/pkg/auth"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/utils"
 
 	"github.com/go-chi/chi"
 )

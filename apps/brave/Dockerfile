@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=ghcr.io/HiradNikoo/neko/base:latest
+ARG BASE_IMAGE=ghcr.io/hiradnikoo/neko/base:latest
 FROM $BASE_IMAGE
 
 RUN set -eux; apt-get update; \

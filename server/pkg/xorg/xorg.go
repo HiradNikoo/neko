@@ -16,7 +16,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/types"
 )
 
 //go:generate ./keysymdef.sh

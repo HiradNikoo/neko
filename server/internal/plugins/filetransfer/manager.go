@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HiradNikoo/neko/server/pkg/auth"
-	"github.com/HiradNikoo/neko/server/pkg/types"
-	"github.com/HiradNikoo/neko/server/pkg/utils"
+	"github.com/hiradnikoo/neko/server/pkg/auth"
+	"github.com/hiradnikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/pkg/utils"
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/rs/zerolog"

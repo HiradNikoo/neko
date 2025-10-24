@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
-	oldTypes "github.com/HiradNikoo/neko/server/internal/http/legacy/types"
+	oldTypes "github.com/hiradnikoo/neko/server/internal/http/legacy/types"
 
-	"github.com/HiradNikoo/neko/server/internal/api"
-	"github.com/HiradNikoo/neko/server/pkg/types"
+	"github.com/hiradnikoo/neko/server/internal/api"
+	"github.com/hiradnikoo/neko/server/pkg/types"
 
 	"github.com/gorilla/websocket"
 	"github.com/rs/zerolog"
