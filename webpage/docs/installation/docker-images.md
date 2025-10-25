@@ -52,13 +52,13 @@ A full list of published versions can be found in the [GitHub tags](https://gith
 An alternative registry is available on [Docker Hub](https://hub.docker.com/r/hiradnikoo/neko). This registry hosts images built from the latest code in the [master branch](https://github.com/hiradnikoo/neko/tree/master). However, it only includes images without flavors and supports the AMD64 architecture. The naming convention for these images is as follows:
 
 ```
-HiradNikoo/neko:<application>
+hiradnikoo/neko:<application>
 ```
 
 - `<application>` is the application name or base image. See [Available Applications](#apps) for more information.
 
 :::info
-`HiradNikoo/neko:latest` is an alias for `HiradNikoo/neko:firefox` due to historical reasons. It is recommended to use the `ghcr.io/hiradnikoo/neko/firefox:latest` image instead.
+`hiradnikoo/neko:latest` is an alias for `hiradnikoo/neko:firefox` due to historical reasons. It is recommended to use the `ghcr.io/hiradnikoo/neko/firefox:latest` image instead.
 :::
 
 ## Available Applications {#apps}

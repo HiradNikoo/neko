@@ -96,7 +96,7 @@ For images with Nvidia GPU hardware acceleration using EGL (see example below) u
 GHCR images are built using GitHub actions for every tag.
 
 :::tip
-For more applications, check out [HiradNikoo/neko-apps](https://github.com/hiradnikoo/neko-apps).
+For more applications, check out [hiradnikoo/neko-apps](https://github.com/hiradnikoo/neko-apps).
 :::
 
 ### Networking:
@@ -112,7 +112,7 @@ version: "3.4"
 
 services:
   neko:
-    image: "HiradNikoo/neko:firefox"
+    image: "hiradnikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -173,7 +173,7 @@ When using a mux, not so many ports are needed.
 version: "3.4"
 services:
   neko:
-    image: "HiradNikoo/neko:firefox"
+    image: "hiradnikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:

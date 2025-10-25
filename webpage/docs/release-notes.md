@@ -94,7 +94,7 @@ Please note that in this version, only the server has been updated. The client i
 
 ### New Features {#v2.8.0-feats}
 - Added AV1 tag, metadata and pipeline. Unfortunately does not work yet, since the encoding is way too slow (by @mbattista).
-- Added `HiradNikoo/neko:kde` tag as an alternative to `HiradNikoo/neko:xfce`.
+- Added `hiradnikoo/neko:kde` tag as an alternative to `hiradnikoo/neko:xfce`.
 - New VirtualGL version 3.1 was released, adding support for Chromium browsers to use Nvidia GPU acceleration!
 - Added `?embed=1` parameter to the URL, which will hide the sidebar and the top bar, so that it can be embedded in other websites.
 - Added `?volume=<0-1>` parameter to the URL, which will set the inital volume of the player (by @urbanekpj).
@@ -122,8 +122,8 @@ Please note that in this version, only the server has been updated. The client i
 ## [n.eko v2.7](https://github.com/hiradnikoo/neko/releases/tag/v2.7) {#v2.7}
 
 ### New Features {#v2.7-feats}
-- Added `HiradNikoo/neko:vivaldi` tag (thanks @Xeddius).
-- Added `HiradNikoo/neko:opera` tag (thanks @prophetofxenu).
+- Added `hiradnikoo/neko:vivaldi` tag (thanks @Xeddius).
+- Added `hiradnikoo/neko:opera` tag (thanks @prophetofxenu).
 - Added `NEKO_PATH_PREFIX`.
 - Added screenshot function `/screenshot.jpg?pwd=<admin>`, works only for unlocked rooms.
 - Added emoji support (by @yesBad).
@@ -143,11 +143,11 @@ Please note that in this version, only the server has been updated. The client i
 - Fixed bad emoji matching for e.g. `:+1:` and `:100:` with new regex `/^:([^:\s]+):/`.
 
 ### New Features {#v2.6-feats}
-- Added `HiradNikoo/neko:microsoft-edge` tag.
+- Added `hiradnikoo/neko:microsoft-edge` tag.
 - Fixed clipboard sync in chromium based browsers.
 - Added support for implicit control (using `NEKO_IMPLICITCONTROL=1`). That means, users do not need to request control prior usage.
 - Automatically start broadcasting using `NEKO_BROADCAST_URL=rtmp://your-rtmp-endpoint/live` (thanks @konsti).
-- Added `HiradNikoo/neko:remmina` tag (by @lowne).
+- Added `hiradnikoo/neko:remmina` tag (by @lowne).
 
 ### Misc {#v2.6-misc}
 - Automatic WebRTC SDP negotiation using onnegotiationneeded handlers. This allows adding/removing track on demand in a session.
@@ -186,7 +186,7 @@ Please note that in this version, only the server has been updated. The client i
 
 ### New Features {#v2.4-feats}
 - Show red dot badge on sidebar toggle if there are new messages, and user can't see them.
-- Added `HiradNikoo/neko:brave` tag.
+- Added `hiradnikoo/neko:brave` tag.
 
 ### Bugs {#v2.4-bugs}
 - Fixed keyboard mapping on macOS, when CMD could not be used for copy & paste.
@@ -215,7 +215,7 @@ Please note that in this version, only the server has been updated. The client i
 - Shake keyboard icon if someone attempted to control when is nobody hosting.
 - Support for password protected `NEKO_ICESERVERS` (by @mbattista).
 - Added bunch of translations (🇸🇰, 🇪🇸, 🇸🇪, 🇳🇴, 🇫🇷) by various people.
-- Added `HiradNikoo/neko:google-chrome` tag.
+- Added `hiradnikoo/neko:google-chrome` tag.
 
 ### Bugs {#v2.3-bugs}
 - Upgraded and fixed emojis to a new major version.
@@ -238,8 +238,8 @@ Please note that in this version, only the server has been updated. The client i
 - Added `MAX_FPS`, where you can specify max WebRTC frame rate. When set to `0`, frame rate won't be capped and you can enjoy your real `60fps` experience. Originally, it was constant at `25fps`.
 - Invite links. You can invite people and they don't need to enter passwords by themselves (and get confused about user accounts that do not exits). You can put your password in URL using `?pwd=<your-password>` and it will be automatically used when logging in.
 - Added `/stats?pwd=<admin>` endpoint to get total active connections, host and members.
-- Added `HiradNikoo/neko:vlc` tag, use VLC to watch local files together (by @mbattista).
-- Added `HiradNikoo/neko:xfce` tag, as an non video related showcase (by @mbattista).
+- Added `hiradnikoo/neko:vlc` tag, use VLC to watch local files together (by @mbattista).
+- Added `hiradnikoo/neko:xfce` tag, as an non video related showcase (by @mbattista).
 - Added ARM-based images, for Raspberry Pi support (by @mbattista).
 
 ### Bugs {#v2.2-bugs}
@@ -255,7 +255,7 @@ Please note that in this version, only the server has been updated. The client i
 - Upgraded `pion/webrtc` to v3 (by @mbattista).
 - Added `requestFullscreen` compatibility for older browsers.
 - Fixed small lags in video and improved video UX (by @mbattista).
-- Added `HiradNikoo/neko:vncviewer` tag, use `NEKO_VNC_URL` to specify VNC target and use n.eko as a bridge.
+- Added `hiradnikoo/neko:vncviewer` tag, use `NEKO_VNC_URL` to specify VNC target and use n.eko as a bridge.
 - Abiltiy to include neko as a component in another Vue.Js project (by @gbrian).
 - Added HEALTHCHECK to Dockerfile.
 

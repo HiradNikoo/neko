@@ -30,10 +30,10 @@ go build \
     -o bin/neko \
     -ldflags "
         -s -w
-        -X 'HiradNikoo/neko.buildDate=`date -u +'%Y-%m-%dT%H:%M:%SZ'`'
-        -X 'HiradNikoo/neko.gitCommit=${GIT_COMMIT}'
-        -X 'HiradNikoo/neko.gitBranch=${GIT_BRANCH}'
-        -X 'HiradNikoo/neko.gitTag=${GIT_TAG}'
+        -X 'hiradnikoo/neko.buildDate=`date -u +'%Y-%m-%dT%H:%M:%SZ'`'
+        -X 'hiradnikoo/neko.gitCommit=${GIT_COMMIT}'
+        -X 'hiradnikoo/neko.gitBranch=${GIT_BRANCH}'
+        -X 'hiradnikoo/neko.gitTag=${GIT_TAG}'
     " \
     cmd/neko/main.go;
 

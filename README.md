@@ -136,7 +136,7 @@ Compared to clientless remote desktop gateway (e.g. [Apache Guacamole](https://g
     <img src="https://neko.m1k1o.net/img/icons/vlc.svg" title="ghcr.io/hiradnikoo/neko/vlc" width="60" height="auto"/>
   </a>
 
-  ... others in <a href="https://github.com/hiradnikoo/neko-apps">HiradNikoo/neko-apps</a>
+  ... others in <a href="https://github.com/hiradnikoo/neko-apps">hiradnikoo/neko-apps</a>
 </div>
 
 ### Why neko?

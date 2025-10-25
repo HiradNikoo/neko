@@ -10,7 +10,7 @@ sidebar_position: 3
 version: "3.4"
 services:
   neko:
-    image: "HiradNikoo/neko:firefox"
+    image: "hiradnikoo/neko:firefox"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -32,7 +32,7 @@ services:
 version: "3.4"
 services:
   neko:
-    image: "HiradNikoo/neko:chromium"
+    image: "hiradnikoo/neko:chromium"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
@@ -54,7 +54,7 @@ services:
 version: "3.4"
 services:
   neko:
-    image: "HiradNikoo/neko:vlc"
+    image: "hiradnikoo/neko:vlc"
     restart: "unless-stopped"
     shm_size: "2gb"
     volumes:
